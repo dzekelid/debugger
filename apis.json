@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Debugger",
+	"description": "This is a repository of debugger APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/debugger.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://debugger.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Stackdriver Monitoring",
+			"x-api-slug": "google-stackdriver-monitoring",
+			"description": "Google Stackdriver provides powerful monitoring, logging, and diagnostics. It equips you with insight into the health, performance, and availability of cloud-powered applications, enabling you to find and fix issues faster. It is natively integrated with Google Cloud Platform, Amazon Web Services, and popular open source packages. Stackdriver provides a wide variety of metrics, dashboards, alerting, log management, reporting, and tracing capabilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-stackdriver.png",
+			"humanURL": "https://cloud.google.com/monitoring/docs/",
+			"baseURL": "https:///",
+			"tags": "Debugger",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/debugger/master/_listings/google-stackdriver-monitoring/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Debugger",
+	"include": [
+		{
+			"name": "Google Stackdriver Monitoring",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/debugger/master/_listings/google-stackdriver-monitoring/apis.yaml"
+		}
+	]
+}
